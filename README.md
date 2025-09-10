@@ -37,5 +37,9 @@
 
 
 /send
+
 <img width="2926" height="349" alt="image" src="https://github.com/user-attachments/assets/9fd9101b-3bb8-46f5-97b8-52d387ecb5e6" />
 
+/token-balance/:address/:tokenAddress
+
+<img width="2068" height="349" alt="image" src="https://github.com/user-attachments/assets/e81c7a8a-8b84-4835-9e40-0c4733b10c8a" />
