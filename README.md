@@ -28,8 +28,10 @@
 - No frontend required.
 
 /network
+
 <img width="787" height="174" alt="image" src="https://github.com/user-attachments/assets/78605fca-ed45-436a-a70f-daba542bb976" />
 
 /balance/:address
+
 <img width="787" height="174" alt="image" src="https://github.com/user-attachments/assets/f0d4c947-9ceb-479b-a2e0-02ed8672fc19" />
 
