@@ -24,15 +24,15 @@ app.use(express.json());
 const db = require('./db');
 
 // Import routes (placeholders)
-// const balanceRoute = require('./routes/balance');
-// const sendRoute = require('./routes/send');
-// const networkRoute = require('./routes/network');
-// const tokenBalanceRoute = require('./routes/tokenBalance');
+const balanceRoute = require('./routes/balance');
+const sendRoute = require('./routes/send');
+const networkRoute = require('./routes/network');
+const tokenBalanceRoute = require('./routes/tokenBalance');
 
-// app.use('/balance', balanceRoute);
-// app.use('/send', sendRoute);
-// app.use('/network', networkRoute);
-// app.use('/token-balance', tokenBalanceRoute);
+app.use('/balance', balanceRoute);
+app.use('/send', sendRoute);
+app.use('/network', networkRoute);
+app.use('/token-balance', tokenBalanceRoute);
 
 app.get('/', (req, res) => {
   res.send('Ethereum Blockchain Service API');
